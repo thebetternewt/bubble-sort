@@ -21,7 +21,6 @@ def bubble_sort_by(arr)
 end
 
 
-# sorted_array = bubble_sort([3,5,3,7,5,7,3,88,33,45,2,1])
-# p sorted_array
+p bubble_sort([3,5,3,7,5,7,3,88,33,45,2,1])
 
 p bubble_sort_by(['zebras', 'giraffes', 'elephants']) { |val1, val2| val1 <=> val2 }
