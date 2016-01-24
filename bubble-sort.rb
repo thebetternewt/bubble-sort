@@ -23,4 +23,4 @@ end
 
 p bubble_sort([3,5,3,7,5,7,3,88,33,45,2,1])
 
-p bubble_sort_by(['zebras', 'giraffes', 'elephants']) { |val1, val2| val1 <=> val2 }
+p bubble_sort_by(['zebras', 'elephants', 'chimps', 'giraffes']) {|val1, val2| val1 <=> val2}
